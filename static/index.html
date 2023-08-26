@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Majkl si hraje</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <script src="https://unpkg.com/htmx.org@1.5.0/dist/htmx.min.js"></script>
+    <script src="https://unpkg.com/htmx.org/dist/ext/ws.js"></script>
+</head>
+<body>    
+    <div  hx-ws="connect:/ws">
+        Právě je:
+        <div id="time">zatim nevim</div>        
+    </div>
+</body>
+</html>
